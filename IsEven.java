@@ -39,6 +39,13 @@ public class IsEven {
         return(isEven(num+1));
     }
 
+    static boolean isNotEven(int num){
+        return !isEven(num);
+    }
+
+    static boolean isNotOdd(int num){
+        return !isOdd(num);
+    }
 
     static boolean wasEven(int num, int addend){
         num += addend;
@@ -54,7 +61,7 @@ public class IsEven {
     }
 
     static boolean isNotOddOrNotEven(int num) {
-        return(!isOdd(num) || !isEven(num));
+        return(isNotOdd(num) || isNotEven(num));
     }
 
     static boolean isOddAndEven(int num){
@@ -62,15 +69,15 @@ public class IsEven {
     }
 
     static boolean isNotOddAndNotEven(int num){
-        return (!isOdd(num) && !isEven(num));
+        return (isNotOdd(num) && isNotEven(num));
     }
 
     static boolean isEvenAndNotOdd(int num){
-        return(isEven(num) && !isOdd(num));
+        return(isEven(num) && isNotOdd(num));
     }
 
     static boolean isOddAndNotEven(int num){
-        return(isOdd(num) && !isEven( num));
+        return(isOdd(num) && isNotEven( num));
     }
 
     static boolean isDivisibleByTwo(int num){
