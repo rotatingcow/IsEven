@@ -93,6 +93,10 @@ public class IsEven {
         return false;
     }
 
+    static boolean isOdd(String num){
+        return false;
+    }
+
     static boolean isEven(boolean num){
         return false;
     }
