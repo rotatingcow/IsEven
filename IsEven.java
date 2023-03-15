@@ -88,4 +88,8 @@ public class IsEven {
     static boolean isSuperEven(int num) {
         return false;
     }
+
+    static boolean isEven(String num){
+        return false;
+    }
 }
