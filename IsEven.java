@@ -92,4 +92,8 @@ public class IsEven {
     static boolean isEven(String num){
         return false;
     }
+
+    static boolean isEven(boolean num){
+        return false;
+    }
 }
