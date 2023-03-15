@@ -100,4 +100,8 @@ public class IsEven {
     static boolean isEven(boolean num){
         return false;
     }
+
+    static boolean isOdd(boolean num){
+        return false;
+    }
 }
